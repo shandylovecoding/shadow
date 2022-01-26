@@ -1,0 +1,19 @@
+.tagbutton {
+    height: 1.5rem;
+    margin: 4px;
+    padding: 0px 10px;
+    border-radius: 15px;
+    background-color: #707070;
+    border: 1px solid #707070;
+    color: #FFFFFF;
+    /* width: auto; */
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tagbutton:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}

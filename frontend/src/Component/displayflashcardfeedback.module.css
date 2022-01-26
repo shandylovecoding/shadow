@@ -1,0 +1,104 @@
+/* .scrollfeedback {
+    background-color:transparent;
+    overflow: auto;
+    white-space: nowrap;
+    height: 18vh;
+} */
+
+.scrollfeedbackcard {
+    border: 1px solid #5D5FEF;
+    border-radius: 4px;
+    margin: 6px;
+}
+
+.scrollfeedbackcard table{
+    width: 100%;
+    /* border-spacing: 1rem; */
+    /* padding: 5%; */
+    /* border: 1px solid; */
+    table-layout: fixed;
+}
+
+
+.scrollfeedbackcard table tr td {
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.feedback{
+    width: 80%;
+    margin: 2%;
+    text-align: left;
+    /* word-break: break-all; */
+    white-space: initial;
+    /* overflow: scroll; */
+    /* word-break: break-word; */
+    /* overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto; */
+
+}
+
+.feedbacktime{
+    width: 10%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.removingfeedback{
+    width: 5%;
+    margin: 2%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    z-index: 9999;
+}
+
+
+.removingfeedbackbtn:hover{
+    color: #531c18;
+    cursor: pointer;
+}
+
+.scrollfeedbackcard table tr th {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollfeedbackcard table tr{
+    /* width: 100% */
+    border-spacing: 1rem;
+    padding: 3%;
+    height: min-content;
+}
+
+.scrollfeedbackrow{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.timestamp{
+padding: 20px;
+padding-left: auto;
+/* width: min-content */
+}
+
+
+.commentinguser img {
+	width: 50px;
+	height: 50px;
+	/* -webkit-border-radius: 30px;  */
+    border: 2px solid #3D4176;
+	border-radius: 50%; 
+   
+}

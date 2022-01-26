@@ -1,0 +1,63 @@
+.createdictationcard{
+        margin: 2% 5%
+}
+
+.createbtn{
+    float: right
+}
+
+.createbtn button {
+    cursor: pointer;
+    float: right;
+    width:130px;
+    height:40px;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 1px solid #5D5FEF;
+    background-color: #5D5FEF;
+    border-radius: 4px;
+    margin: 4px
+}
+
+.createbtn button:hover,
+.createbtn button:active {
+    background-color: #7879F1;
+  }
+
+.listframe{
+    background-color: #FFFBE7;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.listframe input{
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #FFF;
+        width: 40%;
+}
+
+  .additembtn button{
+    font: inherit;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #3D4176;
+    border: 0px solid ;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+.additembtn button:hover,
+.additembtn button:active {
+  background-color: rgba(229, 238,245, 0.5);
+  }

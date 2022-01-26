@@ -1,0 +1,171 @@
+.viewflashcard {
+    margin: 2% 5%
+    }
+
+.viewflashcard h1{
+    padding: 20px;
+}
+
+.viewflashcard h5{
+    display: flex;
+}
+
+video, iframe {
+    width: 40vw;
+    height: 40vh;
+}
+
+div.submissions {
+    padding: 5px 20px
+}
+
+div.feedback {
+  padding: 5px 20px;
+}
+
+.scrollsubmission {
+    background-color:transparent;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    height: auto;
+  }
+  
+.scrollicon {
+    display: flex;
+    /* padding: 14px; */
+    /* width: 6rem; */
+    height: 10vh;
+    /* border-radius: 50%; */
+    background-color: transparent;
+    /* margin: 2px; */
+    cursor: pointer;
+  }
+  
+
+.scrollicon img{
+	width: 50px;
+	height: 50px;
+	/* -webkit-border-radius: 30px;  */
+    border: 2px solid #3D4176;
+	border-radius: 50%; 
+    margin: 4px;
+	}
+
+    /* .scrollplusicon i{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #3D4176;
+        border-radius: 50%; 
+        } */
+
+    /* .scrollplusicon {
+        /* display: flex;
+        padding: 15px;
+        width: 50px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: transparent;
+        margin: 2px;
+        align-items: center; */
+      /* }  */
+
+  
+    .scrollplusicon {
+    font: inherit;
+    cursor: pointer;
+    padding: 15px;
+	width: 50px;
+	height: 50px;
+    /* text-align: center; */
+    color: #3D4176;
+    border: 2px solid #3D4176;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    /* padding: 6px; */
+    /* position:relative; */
+  }
+  
+.scrollfeedback {
+    background-color:transparent;
+    overflow: scroll;
+    white-space: nowrap;
+    max-height: 20vh;
+}
+
+.scrollfeedbackcard {
+    border: 1px solid #5D5FEF;
+    border-radius: 4px;
+    margin: 6px;
+}
+
+
+.commentinguser{
+    text-align: right;
+}
+
+.commentinguser img {
+	width: 50px;
+	height: 50px;
+	/* -webkit-border-radius: 30px;  */
+    border: 2px solid #3D4176;
+	border-radius: 50%; 
+    margin: 1px;
+}
+
+.addbtn{
+    border: 0px solid;
+    margin: 1px;
+    padding: 1px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid #F5F5F5; */
+    /* background-color: #F5F5F5; */
+    border-radius: 25%;
+}
+
+.addcommentbox{
+    border: 1px solid #5D5FEF;
+    border-radius: 4px;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 10px;
+    color: #7879F1;
+}
+
+/* .addcommentcontainer :hover{
+    border: 1px solid #d7d7ff;
+} */
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewflashcard button {
+    cursor: pointer;
+    width:130px;
+    height:40px;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 1px solid #5D5FEF;
+    background-color: #5D5FEF;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.viewflashcard button:hover,
+.viewflashcard button:active {
+    background-color: #7879F1;
+  }

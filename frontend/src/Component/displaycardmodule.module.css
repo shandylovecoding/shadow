@@ -1,0 +1,126 @@
+
+.flashcard{
+    width: 30%;
+    height: 20vh;
+    margin: 5px 20px;
+    /* border: 1px solid #B6B6B6; */
+    border-radius: 25px;
+    background-color: #7878fa;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 10px; */
+    padding: 30px;
+}
+
+.flashcard:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.flashcard h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+}
+
+.flashcard p{
+    font-size: 14px;
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.quizcard{
+    width: 30%;
+    height: 20vh;
+    margin: 5px 20px;
+    /* border: 1px solid #B6B6B6; */
+    border-radius: 25px;
+    background-color: #407e40;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 10px; */
+    padding: 30px;
+}
+
+.quizcard:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.quizcard h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+}
+
+.quizcard p{
+    font-size: 14px;
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dictationcard{
+    width: 30%;
+    height: 20vh;
+    margin: 5px 20px;
+    /* border: 1px solid #B6B6B6; */
+    border-radius: 25px;
+    background-color: #03a0e4;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 10px; */
+    padding: 30px;
+}
+
+.dictationcard:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.dictationcard h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+}
+
+.dictationcard p{
+    font-size: 14px;
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.deletebtn{
+    float: right;
+    margin-right: 5px; 
+    color: #FFFFFF;
+}
+
+.deletebtn:hover{
+    float: right;
+    margin-right: 5px; 
+    color: #ffc7c3;
+}

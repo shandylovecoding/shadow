@@ -1,0 +1,67 @@
+.classroom{
+    width: 30%;
+    height: 20vh;
+    margin: 5px 20px;
+    /* border: 1px solid #B6B6B6; */
+    border-radius: 25px;
+    background-color: #1B85C4;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 10px; */
+    padding: 30px;
+}
+
+.classroom h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+}
+
+.classroom p{
+    font-size: 14px;
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.classroom:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.deletebtn{
+    float: right;
+    margin-right: 5px; 
+    color: #FFFFFF;
+}
+
+.deletebtn:hover{
+    float: right;
+    margin-right: 5px; 
+    color: #ffc7c3;
+}
+
+/* .dropdown{
+    height: 1rem;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdownToggle {
+
+} */
+
+.dropdown span:hover{
+    /* color: black; */
+    /* align-self: top; */
+    color: #f7ea8a
+}

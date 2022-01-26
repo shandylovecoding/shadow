@@ -1,0 +1,145 @@
+.viewclassroom {
+    margin: 1% 4%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3D4176;
+    padding: 0px;
+}
+
+.set {
+    width: 30%;
+    height: 20vh;
+    border: 1px solid #B6B6B6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 20px;
+    padding: 30px;
+}
+
+
+
+.addbtn {
+    border: 0px solid;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid #F5F5F5; */
+    /* background-color: #F5F5F5; */
+    border-radius: 25%;
+}
+
+.addusericon {
+    display: flex;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 2px;
+    align-items: center;
+    border: 2px solid #3D4176;
+}
+
+
+.tagbutton {
+    height: 1.5rem;
+    margin: 4px;
+    padding: 0px 10px;
+    border-radius: 15px;
+    background-color: #707070;
+    border: 1px solid #707070;
+    color: #FFFFFF;
+    /* width: auto; */
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tagbutton:hover{
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    }
+
+.addtagbutton {
+    height: 1.5rem;
+    padding: 0px 10px;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    color: #707070;
+    /* width: auto; */
+    box-shadow: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.addtagbutton:hover {
+    border: 1px solid #858585;
+    color: #858585;
+}
+
+
+
+.sharingusericon {
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 6px;
+}
+
+
+
+.sharingusericon img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #3D4176;
+    border-radius: 50%;
+}
+
+.sharingusericon img:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.editTitle {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3D4176;
+    display: flex;
+    border: none;
+    overflow: visible;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 0px 0px 20px
+}
+
+.editDescription{
+    width: 100%;
+    font-size: 12px;
+    color: #B9B9B9;
+    margin: 2px;
+    border: none;
+    overflow: visible;
+    outline: none;
+    background-color: transparent;
+    padding: 20px 0px 0px 20px
+}
+
+.viewclassroom h1{
+    padding: 10px 0px 0px 20px
+}
+
+.viewclassroom h6 {
+    padding: 10px 0px 0px 20px
+}

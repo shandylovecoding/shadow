@@ -1,0 +1,27 @@
+.createquizcard {
+    margin: 2% 5%
+    }
+
+.header button {
+    cursor: pointer;
+    float: right;
+    width:10vw;
+    height:5vh;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 1px solid #5D5FEF;
+    background-color: #5D5FEF;
+    border-radius: 4px;
+    margin: 4px
+}
+
+.header button:hover,
+.header button:active {
+    background-color: #7879F1;
+  }
+
+ .createflashcard video {
+    width: 100%    !important;
+    height: auto   !important;
+}

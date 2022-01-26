@@ -1,0 +1,24 @@
+.viewquizcardsubmission {
+    margin: 2% 5%
+}
+.viewquizcardsubmission table{
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+.viewquizcardsubmission tr{
+    display: block; float: left;
+}
+
+.viewquizcardsubmission th{
+    padding: 18px;
+    border: 1px solid;
+    display: block;
+}
+
+.viewquizcardsubmission td{
+    padding: 18px;
+    border: 1px solid;
+    display: block;
+}
+

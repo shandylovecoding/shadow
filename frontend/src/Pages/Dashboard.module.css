@@ -1,0 +1,80 @@
+  .dashboard{
+    margin: 2% 5%;
+  }
+
+
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3D4176;
+    /* display: block; */
+  }
+  
+  .dashboard h1{
+    padding: 20px 0px 10px 20px
+  }
+
+  .createclassroombtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .createclassroombtn div{
+    font: inherit;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px 10px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #3D4176;
+    /* border: 1px solid #77002e; */
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  .addbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.addbtn:hover,
+.addbtn:active {
+  color: #6e75df;
+  /* background-color: rgba(229, 238,245, 0.5); */
+  font-weight: bold;
+  }
+
+
+  .createsetbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .createsetbtn div{
+    font: inherit;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px 10px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #3D4176;
+    /* border: 1px solid #77002e; */
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+/* .createsetbtn div:hover,
+.createsetbtn div:active {
+  background-color: rgba(229, 238,245, 0.5);
+  } */

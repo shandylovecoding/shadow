@@ -1,0 +1,19 @@
+.transcript{
+    width: 100%;
+    height: 30vh;
+    margin: 1px;
+    padding: 10px;
+}
+
+.transcriptframe{
+    background-color: #FFFBE7;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.transcriptframe h5{
+    display: flex;
+}
+textarea:disabled{
+    background-color: #FFFFFF;
+}

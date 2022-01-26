@@ -1,0 +1,25 @@
+.headingframe {
+display: flex;
+flex-wrap: wrap;
+margin: 2px;
+}
+
+.title {
+width: 90%;
+height: 44px;
+font-size: 24px;
+border: transparent;
+margin: 2px;
+}
+
+.description {
+    width: 80%;
+    height: 34px;
+    font-size: 14px;
+    border: transparent;
+    margin: 2px;
+}
+
+input[type=text]:disabled{
+    background-color: transparent;
+}
